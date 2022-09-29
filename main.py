@@ -305,7 +305,9 @@ async def start_essential_words(update: Update, context: ContextTypes.DEFAULT_TY
     markup5= ReplyKeyboardMarkup(reply_keyboard5, one_time_keyboard=True)
     global rfe
     # rfe=randint(0,len(essential_unit_1)-1)
-    
+    await update.message.reply_text(
+        "Choose Correct Answer ✅"
+    )
     questions = ["Hidlamoq", "Qo'rqqan,cho'chigan", "Xovotirlangan", "Yakunlamoq"]
     message0 = await update.effective_message.reply_poll(
         "Afraid - ... ? ", questions, type=Poll.QUIZ, correct_option_id=1
