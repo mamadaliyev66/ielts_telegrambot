@@ -251,22 +251,17 @@ essential_unit_1_english=essential_unit_1["english"].tolist()
 rfe=0
 
 async def unit2(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
-    markupu= ReplyKeyboardMarkup(reply_keyboardu, one_time_keyboard=True)
-    
-    
-    
-    
-    
-    
+    markupu1= ReplyKeyboardMarkup(reply_keyboard4, one_time_keyboard=True)
+
     await update.message.reply_html(
         "Coming Soon ... ",
-        reply_markup=markupu,
+        reply_markup=markupu1,
     )    
 
 
 
 async def unit3(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
-    markupu= ReplyKeyboardMarkup(reply_keyboardu, one_time_keyboard=True)
+    markupu= ReplyKeyboardMarkup(reply_keyboard4, one_time_keyboard=True)
     await update.message.reply_html(
         "Coming Soon ... ",
         reply_markup=markupu,
