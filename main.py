@@ -507,7 +507,7 @@ async def typing_choice(update: Update, context: ContextTypes.DEFAULT_TYPE) -> i
 def main() -> None:
     """Run the bot."""
     # Create the Application and pass it your bot's token.
-    application = Application.builder().token("2109667277:AAF7H179Zj9baAIMwH2PZDstwFXx3Ky0oSk").build()
+    application = Application.builder().token("5632292395:AAGe-bVNa1zpTMlq6k_iPfvmeo_DxZj6Xyc").build()
 
     # Add conversation handler with the states CHOOSING, TYPING_CHOICE and TYPING_REPLY
     conv_handler = ConversationHandler(
